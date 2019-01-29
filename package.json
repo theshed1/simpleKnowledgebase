@@ -1,0 +1,14 @@
+{
+  "name": "nodejsproject",
+  "version": "1.0.0",
+  "description": "Kowledgebase app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Daniel Apps",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
