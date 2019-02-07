@@ -20,6 +20,11 @@ html
                         a(href="/") Home
                     li
                         a(href="/articles/add") Add Article
+                ul.nav.navbar-nav.navbar-right
+                    li
+                        a(href="/users/register") Register
+                    li
+                        a(href="/users/login") Login
         .container
             != messages("message", locals)
             if errors
@@ -29,7 +34,7 @@ html
             br
             hr
             footer
-                p Copyright &copy; 2019
+                p Copyright &copy; Aarons Gay 2019
         script(src="/bower_components/bootstrap/dist/js/bootstrap.js")
         script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
         script(src="/js/main.js")
